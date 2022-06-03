@@ -1,0 +1,9 @@
+import React from 'react';
+import { useParams } from 'react-router-dom';
+
+export default function Contactid(){
+    const params = useParams()
+    return (
+        <span>Contact: {params.id}</span>
+    )
+}
